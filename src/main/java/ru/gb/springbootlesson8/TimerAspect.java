@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 @Aspect
-public class HomeWork {
+public class TimerAspect {
     /*
     Создать аннотацию замера времени исполнения метода (Timer). Она может ставиться над методами или классами.
     Аннотация работает так: после исполнения метода (метода класса) с такой аннотацией, необходимо в лог записать следующее:
